@@ -46,7 +46,15 @@ The libraries used beyond the react framework:
   * Item - Handles the specific textblock location and styling as well as the input text (as a child) passed from the List
   * List - Calculates the location to pass to the textbox item as well as the specific text it should return
  ### Data:
- 
+Data retrieval is hanlded in the folder data.
+It consists of the following structure:
+* data
+ * api - constructs the axios http request
+ * fetcher - executes the axios request constructed in api.js
+ * useMemes - hook manager to extract array of memes from the JSON object return from fetcher and itself then returns this meme array
+
+### APP
+
 Fetched JSON array of objects (memes) from a REST API.
 Each array element(meme) contains their respective images and styling.  
 
