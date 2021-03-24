@@ -1,9 +1,9 @@
 # Validus-MemeGen
 ## Getting Started:
 ### Initial Setup:
-Once you have cloned/downloaded the project. Inside the project root directory run:
+* Once you have cloned/downloaded the project. Inside the project root directory run:
 `npm -install`  
-If this results in an error please try:
+* Item 2If this results in an error please try:
 `npm install -g npm`
 If this fails please visit:
 https://docs.npmjs.com/common-errors
