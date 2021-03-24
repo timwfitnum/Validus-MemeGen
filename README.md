@@ -1,4 +1,4 @@
-# Validus-MemeGen
+# MemeMaker
 ## Getting Started:
 ### Initial Setup:
 Once you have cloned/downloaded the project. Inside the project root directory run:
@@ -34,4 +34,12 @@ Fetched JSON array of objects (memes) from a REST API.
 Each array element(meme) contains their respective images and styling.  
 
 
-## Implementation  
+# Implementation
+## Libraries
+The libraries used beyond the react framework:
+1. Chakra UI found here: https://chakra-ui.com/
+2. SWR found here: https://swr.vercel.app/
+
+## Structure:
+### Components:
+
