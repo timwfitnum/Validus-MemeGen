@@ -21,7 +21,7 @@ You may encounter errors later on if you don't.
 In the project root directory, in the command line interface, run:
 `npm start`
 
-Given no errors occur, you should be redirected to a browser pop-up where the project.
+Given no errors occur, you should be redirected to a browser pop-up where the project
 is being run.
 If you are not redirected, you should find the project running in the browser on http://localhost:3000/
 
