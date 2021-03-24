@@ -53,7 +53,7 @@ It consists of the following structure:
  * fetcher - executes the axios request constructed in api.js
  * useMemes - hook manager to extract array of memes from the JSON object return from fetcher and itself then returns this meme array
 
-### APP
+### App
 
 Fetched JSON array of objects (memes) from a REST API.
 Each array element(meme) contains their respective images and styling.  
