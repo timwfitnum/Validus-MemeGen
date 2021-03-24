@@ -7,10 +7,22 @@ Once you have cloned/downloaded the project. Inside the project root directory r
 
 If this results in an error please try:
 
-`npm install -g npm`
+`npm install -g npm`  and then try the above step again
 
 If this fails please visit:
 https://docs.npmjs.com/common-errors
+
+## How To Run:
+### Assuming the above steps were successfully executed.
+If you skipped the above steps, please go back and do them now.
+You may encounter errors later on if you don't.
+
+### To run the project:
+In the project root directory, in the command line interface, run:
+`npm start`
+
+Given no errors occur, you should be redirected to a browser pop-up where the project
+is being run.
 
 ## Task at Hand:
 Make a meme generator using **React** as the frontend framework and anything for the backend.
