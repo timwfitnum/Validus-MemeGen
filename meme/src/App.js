@@ -4,7 +4,6 @@ import useMemes from "./data/useMemes";
 
 import { MemeList } from "./components/Memes";
 import { TextOverlayList } from "./components/TextOverlay";
-import html2canvas from "html2canvas";
 
 function App() {
 	const [selectedMeme, setSelectedMeme] = useState(null);

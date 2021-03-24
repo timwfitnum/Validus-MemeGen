@@ -1,6 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
+//The UI magical helper
 import { ChakraProvider } from "@chakra-ui/react";
+// Global config options for the fetching of data, therefore
+// All swr hooks in App have fetcher option
 import { SWRConfig } from "swr";
 import "./assets/styles/index.css";
 

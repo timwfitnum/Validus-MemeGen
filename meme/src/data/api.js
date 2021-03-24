@@ -1,5 +1,7 @@
 import axios from "axios";
 
+//Construct the axios http request, but dont process it.
+
 const URL = "http://3.248.183.204:4000";
 
 const API = axios.create({
