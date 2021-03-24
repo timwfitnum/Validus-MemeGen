@@ -23,7 +23,7 @@ In the project root directory, in the command line interface, run:
 
 Given no errors occur, you should be redirected to a browser pop-up where the project.
 is being run.
-If you are not redirect, you should find the project running on http://localhost:3000/
+If you are not redirected, you should find the project running in the browser on http://localhost:3000/
 
 ## Task at Hand:
 Make a meme generator using **React** as the frontend framework and anything for the backend.
