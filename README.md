@@ -56,7 +56,8 @@ It consists of the following structure:
 ### App:
   
 
-# Struggles ## (More of a personal note - but please feel free to read)
+# Struggles 
+#### (More of a personal note - but please feel free to read)
 ## Inital lack of libraries
 
 ## Styling
