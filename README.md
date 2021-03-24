@@ -30,6 +30,12 @@ Make a meme generator using **React** as the frontend framework and anything for
 User must be able to select a meme from a list of thumbnails.
 Once selected, the high resolution version should be displayed along with the respective text boxes.
 
+### Bonus Points:
+* Handling api error states  [x]
+* ~~Use type system like Typescript or Flow~~
+* ~~As much test coverage as you can manage~~
+* ~~Use any state management system over Reacts component state, e.g. Redux, RxJS or Apollo. ~~
+* Host your web app [x]
 
 # Implementation
 ## Libraries
