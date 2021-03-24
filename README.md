@@ -64,4 +64,4 @@ It consists of the following structure:
 
 ## Confliciting Sources
 
-## Component Use - My Biggest Victory
+## Component Use - "My Biggest Victory"
