@@ -80,7 +80,7 @@ Memelist is used to display all the memes retrieved from the API. It also allows
 
 Stack (imported from Chakra-UI) was an element used to position the memes list as well as the text boxes in a simple and neat manner.
 
-The code for the project itself has been broken up into many different components, each with their own respective functionality and importance. Please read below on [Componenets](#component-use---my-biggest-victory) for more information.
+The code for the project itself has been broken up into many different components, each with their own respective functionality and importance. Please read below on [Components](#component-use---my-biggest-victory) for more information.
 
 # Struggles 
 #### (More of a personal note - but please feel free to read)
@@ -94,7 +94,7 @@ I am still not sure as to why it would not work, but I come to the conclusion th
 Later, with more success, I implemented the use of [*domtoimage*](https://www.npmjs.com/package/dom-to-image) package.
 This was allowing much better screenshots of the DOM and I even managed to get some of the elements displaying.
 The issue again was that none of the images were being displayed. The screenshot could capture the overlaying text but would not capture the image being displayed nor the thumbnail images being displayed in the list. 
-I have left the functionality commented out in the code in the hope that someone would be able to spot a mistake I may have made or at least be able to explain to me as to what I did wrong or why it would not work in the why I set the project up.
+I have left the functionality commented out in the code in the hope that someone would be able to spot a mistake I may have made or at least be able to explain to me as to what I did wrong or why it would not work in the way I set the project up.
 
 ## Web Hosting
 The app has been hosted on firebase and can be found [here.](https://validusmeme.web.app/)
