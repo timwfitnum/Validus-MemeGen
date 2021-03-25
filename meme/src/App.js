@@ -11,7 +11,7 @@ function App() {
 	// used to receive from the api fetch - help check for errors and 
 	// mutate changes cached data so can be used to swap meme display? yes?
 	const { data, error, mutate } = useMemes();
-
+	
 	// store my memes if fetched - else store empty object
 	const { memes } = data ?? {};
 
