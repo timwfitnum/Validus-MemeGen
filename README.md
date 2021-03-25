@@ -1,7 +1,7 @@
 # MemeMaker
 ## Getting Started:
 #### The project has been hosted using firebase and can be found at: https://validusmeme.web.app/
-Please read the section on web hosting below for more [information](#-Web-Hosting).
+Please read the section on web hosting below for more [information](#-web-hosting).
 ### Initial Setup:
 Once you have cloned/downloaded the project. Inside the project root directory run:
 
