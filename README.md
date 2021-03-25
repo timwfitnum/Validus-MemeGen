@@ -85,7 +85,7 @@ The code for the project itself has been broken up into many different component
 # Struggles 
 #### (More of a personal note - but please feel free to read)
 ## Web Hosting
-The app has been hosted on firebase and can be found [here](#http://localhost:3000/)
+The app has been hosted on firebase and can be found [here](http://localhost:3000/)
 ## Inital lack of libraries
 
 ## Styling
