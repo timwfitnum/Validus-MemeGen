@@ -85,6 +85,17 @@ The code for the project itself has been broken up into many different component
 # Struggles 
 #### (More of a personal note - but please feel free to read)
 
+## Failure to generate memes
+I initally tried to make use of Html2canvas but had no luck in the setup and use of the tool. 
+
+The second time around, the tool was much more successful in managing to snapshot the DOM but it was only returning an empty image.
+I am still not sure as to why it would not work, but I come to the conclusion that it was the components and lack of pure html.
+
+Later, with more success, I implemented the use of [*domtoimage*](https://www.npmjs.com/package/dom-to-image) package.
+This was allowing much better screenshots of the DOM and I even managed to get some of the elements displaying.
+The issue again was that none of the images were being displayed. The screenshot could capture the overlaying text but would not capture the image being displayed nor the thumbnail images being displayed in the list. 
+I have left the functionality commented out in the code in the hope that someone would be able to spot a mistake I may have made or at least be able to explain to me as to what I did wrong or why it would not work in the why I set the project up.
+
 ## Web Hosting
 The app has been hosted on firebase and can be found [here.](https://validusmeme.web.app/)
 
@@ -103,6 +114,11 @@ SWR broke my fetching done to its bare components and allowed me to handle fetch
 
 The libraries did end up coming at a cost. Specifically the Chakra-UI, which made taking a screenshot of the DOM impossible to capture the image tags. Fixing this would have completely rearranged my project and I still do not understand the error that was occuring nor how to fix it.
 ## Styling
+The real-time styling of the components, in particular, the overlaying text was very difficult for me. The lack of experience with basic css really hendered my abilites at successfully using CSS-in-JS. I especially struggled with positioning for a while until I managed to get the text to start in the appropriate position.
+
+The next issue, that still aludes me, was correctly styling the text so that the center placement of the text would that starting position. But after many attempts at different ways of trying to position and style the text overlay I had no joy. 
+
+I am certain I have just been making a small styling mistake and that there is not an issue at the root of my component use that did not help me succeed in the correct position and also the optional rotation of the code, given the meme required it.
 
 ## Confliciting Sources
 Before I started this task I used youtube tutorials, React's documentation and lots of other resources available to me.
