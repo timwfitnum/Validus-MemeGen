@@ -127,7 +127,7 @@ There were just too many conflicting ways of doing the same task, which made bui
 
 This is another reason as to why I resarted my project. Initially it was messy and hard to follow, but I took a new approach which helped break everything down into its components and made a much easier to understand project.
 ## Component Use - "My Biggest *Victory*"
-I now am starting to see the power of React and why it is becoming such a sort after skill.
+I now am starting to see the power of React and why it is becoming such a sought after skill.
 
 Components and being able to break up my project into such specific pieces whilst keeping the UI and logic highly functional made this much more enjoyable. They allowed me to see where issues were arising and be able to follow the flow to find the breaks.
 
