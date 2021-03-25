@@ -54,7 +54,7 @@ The libraries used beyond the react framework:
   * Item - Handles the specific textblock location and styling as well as the input text (as a child) passed from the List.
   * List - Calculates the location to pass to the textbox item as well as the specific text it should return.
  ### Data:
-Data retrieval is hanlded in the folder data.
+Data retrieval is handled in the folder data.
 It consists of the following structure:
 * data
   * api - constructs the axios http request
@@ -76,7 +76,7 @@ The TextOverLayList component handles the display and creation of all the text t
 
 For each text block available the OverLayList creates a Text Item. This item is fed the position and style of where to be displayed. The OverlayList also passes the text to be displayed to the Item by passing it as a children prop as the item does not its child prop until it has been inputted in the text box.
 
-Memelist is used to display all the memes retrieved from the API. It also allows the user to select available thumbnails to create memes out of. The MemeList handles passing the selected meme to the MemeItem component which is then renders as an Image in the -Image component.
+Memelist is used to display all the memes retrieved from the API. It also allows the user to select available thumbnails to create memes out of. The MemeList handles passing the selected meme to the MemeItem component which is then rendered as an Image in the -Image component.
 
 Stack (imported from Chakra-UI) was an element used to position the memes list as well as the text boxes in a simple and neat manner.
 
