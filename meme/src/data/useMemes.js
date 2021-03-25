@@ -1,3 +1,4 @@
+import { systemProps } from "@chakra-ui/styled-system";
 import useSWR from "swr";
 
 //use the swr hook manager to handle the fetch and return 

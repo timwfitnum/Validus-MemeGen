@@ -1,7 +1,7 @@
 import { useState, useRef } from "react";
 import { Text, Button, Box, Heading, Spinner, Image, Input, Stack } from "@chakra-ui/react";
 import useMemes from "./data/useMemes";
-
+import domtoimage from 'dom-to-image';
 import { MemeList } from "./components/Memes";
 import { TextOverlayList } from "./components/TextOverlay";
 
@@ -63,21 +63,28 @@ function App() {
 	}
 
 	// function generateMeme() {
-	// 	html2canvas(document.querySelector("#capture")).then(canvas => {
-	// 		// document.body.appendChild(canvas);
-	// 		var image = canvas.toDataURL("image/png").replace("image/png", "image/octet-stream");
-	// 		window.location.href = image;
-	// 	})
+	// 	const domElement = document.getElementById("captureMain");
+	// 	domtoimage.toPng(domElement)
+  //   .then(function (dataUrl) {
+	// 		var link = document.createElement('a');
+	// 		link.download = 'my-image-name.jpeg';
+	// 		link.href = dataUrl;
+	// 		link.click();
+  //   })
+  //   .catch(function (error) {
+  //       console.error('oops, something went wrong!', error);
+  //   });
 	// };
 
 	return (
 		<Box p={5}>
 			<Heading>Meme Maker</Heading>
 			
-			<Box mt={5} display="flex" flexDirection={{ base: "column-reverse", md: "row" }}>
-				<Box position="relative" mr={{ base: 0, md: 5 }}>
-					<Image objectFit="contain" src={selectedMeme?.image.large} ref={imageRef} />
-
+			<Box id="captureMain"mt={5}display="flex" flexDirection={{ base: "column-reverse", md: "row" }}>
+				{/* <Button id="print" onClick={generateMeme}>Generate Meme</Button> */}
+				<Box id="capture" position="relative" mr={{ base: 0, md: 5 }}>
+					<Image id="image" objectFit="contain" src={selectedMeme?.image.large} ref={imageRef} />
+					{/* <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBYWFRgWFRYYGRgYGRgYGBgYGBgYGBkaGBgZGRgYGBgcIS4lHB4rIRgYJjgmKy8xNTU1GiQ7QDs0Py40NTEBDAwMEA8QHxISHzQrJCs0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NP/AABEIALcBEwMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAEAQIDBQYABwj/xAA3EAABAwIEBAQEBQQCAwAAAAABAAIRAyEEEjFBBVFhcQYigZGhseHwExUywdEUQlLxB2IjcsL/xAAZAQADAQEBAAAAAAAAAAAAAAAAAQIDBAX/xAAlEQADAQACAgIDAAIDAAAAAAAAAQIRAyESMUFRBBMiFGEjQnH/2gAMAwEAAhEDEQA/AAHAfwkaORUTm9UsdQuc6GSua"/> */}
 					<TextOverlayList data={textBlocks} imageRef={imageRef} style={selectedMeme?.style} />
 					</Box>
 				<Box>
