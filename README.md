@@ -57,9 +57,9 @@ The libraries used beyond the react framework:
 Data retrieval is hanlded in the folder data.
 It consists of the following structure:
 * data
- * api - constructs the axios http request
- * fetcher - executes the axios request constructed in api.js.
- * useMemes - hook manager to extract array of memes from the JSON object return from fetcher and itself then returns this meme array.
+  * api - constructs the axios http request
+  * fetcher - executes the axios request constructed in api.js.
+  * useMemes - hook manager to extract array of memes from the JSON object return from fetcher and itself then returns this meme array.
 
 ### App:
   
