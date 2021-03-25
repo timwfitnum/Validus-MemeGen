@@ -84,7 +84,6 @@ function App() {
 				{/* <Button id="print" onClick={generateMeme}>Generate Meme</Button> */}
 				<Box id="capture" position="relative" mr={{ base: 0, md: 5 }}>
 					<Image id="image" objectFit="contain" src={selectedMeme?.image.large} ref={imageRef} />
-					{/* <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBYWFRgWFRYYGRgYGRgYGBgYGBgYGBkaGBgZGRgYGBgcIS4lHB4rIRgYJjgmKy8xNTU1GiQ7QDs0Py40NTEBDAwMEA8QHxISHzQrJCs0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NP/AABEIALcBEwMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAEAQIDBQYABwj/xAA3EAABAwIEBAQEBQQCAwAAAAABAAIRAyEEEjFBBVFhcQYigZGhseHwExUywdEUQlLxB2IjcsL/xAAZAQADAQEBAAAAAAAAAAAAAAAAAQIDBAX/xAAlEQADAQACAgIDAAIDAAAAAAAAAQIRAyESMUFRBBMiFGEjQnH/2gAMAwEAAhEDEQA/AAHAfwkaORUTm9UsdQuc6GSua"/> */}
 					<TextOverlayList data={textBlocks} imageRef={imageRef} style={selectedMeme?.style} />
 					</Box>
 				<Box>
