@@ -21,6 +21,7 @@ You may encounter errors later on if you don't.
 
 ### To run the project:
 In the project root directory, in the command line interface, run:
+
 `npm start`
 
 Given no errors occur, you should be redirected to a browser pop-up where the project
