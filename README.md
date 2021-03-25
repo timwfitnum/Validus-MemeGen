@@ -1,5 +1,7 @@
 # MemeMaker
 ## Getting Started:
+#### The project has been hosted using firebase and can be found at: https://validusmeme.web.app/
+Please read the section on web hosting below for more [information](#web-hosting).
 ### Initial Setup:
 Once you have cloned/downloaded the project. Inside the project root directory run:
 
@@ -31,7 +33,7 @@ User must be able to select a meme from a list of thumbnails.
 Once selected, the high resolution version should be displayed along with the respective text boxes.
 
 ### Bonus Points:
-* - [x] Handling api error states  
+* - [x] Handling api error and loading states  
 * ~~Use type system like Typescript or Flow~~
 * ~~As much test coverage as you can manage~~
 * ~~Use any state management system over Reacts component state, e.g. Redux, RxJS or Apollo.~~
@@ -55,15 +57,17 @@ The libraries used beyond the react framework:
 Data retrieval is hanlded in the folder data.
 It consists of the following structure:
 * data
- * api - constructs the axios http request
- * fetcher - executes the axios request constructed in api.js.
- * useMemes - hook manager to extract array of memes from the JSON object return from fetcher and itself then returns this meme array.
+  * api - constructs the axios http request
+  * fetcher - executes the axios request constructed in api.js.
+  * useMemes - hook manager to extract array of memes from the JSON object return from fetcher and itself then returns this meme array.
 
 ### App:
   
 
 # Struggles 
 #### (More of a personal note - but please feel free to read)
+## Web Hosting
+
 ## Inital lack of libraries
 
 ## Styling
