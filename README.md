@@ -95,9 +95,25 @@ The result, to get the app working on the hosted site, was to manual upload the 
 The app when run locally is served on an http protocol and does not run into any errors. The local host still makes use of the fetch requests which, as mentioned above, are handled by SWR.
 
 ## Inital lack of libraries
+My first attempt at this was a difficult task in that React was brand new to me and I had no idea about all the libraries at my disposal. After struggling for a while, I found some libraries to make my life easier.
 
+Chakra-UI made styling and componenet control a lot easier for me and make the project a lot neater. 
+
+SWR broke my fetching done to its bare components and allowed me to handle fetch errors in a more streamlined process.
+
+The libraries did end up coming at a cost. Specifically the Chakra-UI, which made taking a screenshot of the DOM impossible to capture the image tags. Fixing this would have completely rearranged my project and I still do not understand the error that was occuring nor how to fix it.
 ## Styling
 
 ## Confliciting Sources
+Before I started this task I used youtube tutorials, React's documentation and lots of other resources available to me.
+There were just too many conflicting ways of doing the same task, which made building on the project a bit more difficult after having tried to learn about all the different functionalites of React.
 
+This is another reason as to why I resarted my project. Initially it was messy and hard to follow, but I took a new approach which helped break everything down into its components and made a much easier to understand project.
 ## Component Use - "My Biggest *Victory*"
+I now am starting to see the power of React and why it is becoming such a sort after skill.
+
+Components and being able to break up my project into such specific pieces whilst keeping the UI and logic highly functional made this much more enjoyable. They allowed me to see where issues were arising and be able to follow the flow to find the breaks.
+
+Towards the end of this project, I felt I had come miles along with the use of components. Somethings are still a bit blury with me, like the use of specific components such as React.Fragments and how, given a key, they can be used to map a collection to an array of fragments. I never got to use it, but I thought it was cool nonetheless.
+
+React.memo is a highly useful refernce tool, it allows for memoization of the previous function and uses the previous calls layout but checks for props that might have changed. They are used when rendering the thumbnails in this project, because the project is so small the performance boost is not even noticed.
