@@ -110,11 +110,11 @@ My first attempt at this was a difficult task in that React was brand new to me 
 
 Chakra-UI made styling and componenet control a lot easier for me and make the project a lot neater. 
 
-SWR broke my fetching done to its bare components and allowed me to handle fetch errors in a more streamlined process.
+SWR broke my fetching down to its bare components and allowed me to handle fetch errors in a more streamlined process.
 
 The libraries did end up coming at a cost. Specifically the Chakra-UI, which made taking a screenshot of the DOM impossible to capture the image tags. Fixing this would have completely rearranged my project and I still do not understand the error that was occuring nor how to fix it.
 ## Styling
-The real-time styling of the components, in particular, the overlaying text was very difficult for me. The lack of experience with basic css really hendered my abilites at successfully using CSS-in-JS. I especially struggled with positioning for a while until I managed to get the text to start in the appropriate position.
+The real-time styling of the components, in particular, the overlaying text was very difficult for me. The lack of experience with basic css really hindered my abilites at successfully using CSS-in-JS. I especially struggled with positioning for a while until I managed to get the text to start in the appropriate position.
 
 The next issue, that still aludes me, was correctly styling the text so that the center placement of the text would that starting position. But after many attempts at different ways of trying to position and style the text overlay I had no joy. 
 
@@ -130,6 +130,6 @@ I now am starting to see the power of React and why it is becoming such a sort a
 
 Components and being able to break up my project into such specific pieces whilst keeping the UI and logic highly functional made this much more enjoyable. They allowed me to see where issues were arising and be able to follow the flow to find the breaks.
 
-Towards the end of this project, I felt I had come miles along with the use of components. Somethings are still a bit blury with me, like the use of specific components such as React.Fragments and how, given a key, they can be used to map a collection to an array of fragments. I never got to use it, but I thought it was cool nonetheless.
+Towards the end of this project, I felt I had come miles along with the use of components. Somethings are still a bit blurry for me, like the use of specific components such as React.Fragments and how, given a key, they can be used to map a collection to an array of fragments. I never got to use it, but I thought it was cool nonetheless.
 
-React.memo is a highly useful refernce tool, it allows for memoization of the previous function and uses the previous calls layout but checks for props that might have changed. They are used when rendering the thumbnails in this project, because the project is so small the performance boost is not even noticed.
+React.memo is a highly useful reference tool, it allows for memoization of the previous function and uses the previous calls layout but checks for props that might have changed. They are used when rendering the thumbnails in this project, because the project is so small the performance boost is not even noticed.
