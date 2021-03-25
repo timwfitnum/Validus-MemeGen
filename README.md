@@ -84,8 +84,16 @@ The code for the project itself has been broken up into many different component
 
 # Struggles 
 #### (More of a personal note - but please feel free to read)
+
 ## Web Hosting
-The app has been hosted on firebase and can be found [here](http://localhost:3000/)
+The app has been hosted on firebase and can be found [here.](https://validusmeme.web.app/)
+
+The main issue that occured whilst trying to host on firebase was that the site was served on an https protocol. This resulted in mixed content errors when trying to fetch from the API which was on an http protocol. The https protocol does not allow for requests to be made to an http API as the link is not seen as secured. 
+
+The result, to get the app working on the hosted site, was to manual upload the data when the site was deployed. This allows for the app to not make any fetch calls and the https mixed content error to not occur.
+
+The app when run locally is served on an http protocal and does not run into any errors. The local host still makes use of the fetch requests which, as mentioned above, are handled by SWR.
+
 ## Inital lack of libraries
 
 ## Styling
