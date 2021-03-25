@@ -6,6 +6,7 @@ function MemeItem({ title, disabled, image, onClick }) {
 	const { thumbnail } = image;
 
 	return (
+		// Tooltip was nice to display title
 		<Tooltip label={title}>
 			<Box as={Button} boxSize="50px" p={0} isDisabled={disabled} onClick={onClick}>
 				<Image boxSize="50px" objectFit="cover" src={thumbnail} alt={title} />

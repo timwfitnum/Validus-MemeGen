@@ -4,7 +4,6 @@ import useSWR from "swr";
 //the specific array of memes from the json object returned
 
 export default function useMemes() {
-
 	return useSWR("/memes");
 
 }

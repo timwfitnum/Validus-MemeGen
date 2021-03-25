@@ -9,7 +9,7 @@ function App() {
 	const [selectedMeme, setSelectedMeme] = useState(null);
 	const [textBlocks, setTextBlocks] = useState([]);
 	// used to receive from the api fetch - help check for errors and 
-	// mutate changes cached data so can be used to swap meme display? yes?
+	// mutate changes cached data so can to fetch data after an error
 	const { data, error, mutate } = useMemes();
 	
 	// store my memes if fetched - else store empty object
@@ -30,8 +30,7 @@ function App() {
 	const onTextBlockChange = (value, index) => {
 		// Deep clone list of text blocks
 		const textBlocksClone = [...textBlocks];
-
-		// Mutate text block to update the text - 
+		// add text block to its respective text block position
 		textBlocksClone[index] = { ...textBlocksClone[index], text: value };
 
 		// Apply mutation to state
