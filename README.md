@@ -92,7 +92,7 @@ The main issue that occured whilst trying to host on firebase was that the site 
 
 The result, to get the app working on the hosted site, was to manual upload the data when the site was deployed. This allows for the app to not make any fetch calls and the https mixed content error to not occur.
 
-The app when run locally is served on an http protocal and does not run into any errors. The local host still makes use of the fetch requests which, as mentioned above, are handled by SWR.
+The app when run locally is served on an http protocol and does not run into any errors. The local host still makes use of the fetch requests which, as mentioned above, are handled by SWR.
 
 ## Inital lack of libraries
 
